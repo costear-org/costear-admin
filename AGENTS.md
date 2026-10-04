@@ -1,6 +1,6 @@
 # AGENTS.md — cómo se trabaja en este repo
 
-Esto es `Coste-AR/CosteAR-admin`: el panel interno de CosteAR.
+Esto es `costear-org/costear-admin`: el panel interno de CosteAR.
 
 **Leelo entero antes de tocar nada.** Es el contrato de trabajo del repo, y está acá porque un
 agente arranca frío: si no está escrito, lo inventa.
@@ -23,8 +23,8 @@ Que el CI esté en verde depende de vos. No es una formalidad: es lo único que 
 npm run briefing
 ```
 
-Antes de leer el issue, leé la [Constitución de CosteAR](https://github.com/Coste-AR/CosteAR-os/blob/dev/CONSTITUCION.md)
-del repo `Coste-AR/CosteAR-os`: es una página con diez principios. Si el issue contradice la
+Antes de leer el issue, leé la [Constitución de CosteAR](https://github.com/costear-org/costear-os/blob/dev/CONSTITUCION.md)
+del repo `costear-org/costear-os`: es una página con diez principios. Si el issue contradice la
 Constitución, el issue está mal: decilo en el issue y no lo hagas. Cuando tomes una decisión sobre
 la marcha, citá en la bitácora el principio aplicado (`Constitución §N`).
 
@@ -81,7 +81,7 @@ git y de `gh` en el momento.
    **Esperar no ayuda a nadie.** Un PR que se queda abierto se desactualiza contra `dev` y empieza
    a generar conflictos con el trabajo de los demás. Si está listo, decilo.
 
-   El reparto completo de quién hace qué está en `CosteAR-os/ORQUESTACION.md`. **Ante cualquier
+   El reparto completo de quién hace qué está en `costear-os/ORQUESTACION.md`. **Ante cualquier
    contradicción entre este archivo y ese, manda ese.**
 
 ## Con qué se verifica
@@ -135,7 +135,7 @@ a mano al final es una promesa que se incumple sola.
   hayas acertado**. No es una queja: es con lo que mejoramos cómo pedimos el trabajo.
 - **Qué quedó afuera.**
 
-Formato completo: `CosteAR-os/software/templates/bitacora-sesion-agente.md`.
+Formato completo: `costear-os/software/templates/bitacora-sesion-agente.md`.
 
 ## Antes de decir que algo ya está resuelto
 
@@ -179,7 +179,7 @@ Qué hiciste, por qué, cómo probarlo, y **qué quedó afuera**. Pegá la salid
 
 ---
 
-El protocolo completo del equipo está en [`Coste-AR/CosteAR-os`](https://github.com/Coste-AR/CosteAR-os).
+El protocolo completo del equipo está en [`costear-org/costear-os`](https://github.com/costear-org/costear-os).
 
 ---
 
@@ -191,6 +191,6 @@ y no declara qué cambió queda esperando a una persona.
 
 |Fecha|Qué cambió|Fuente|
 |---|---|---|
-|2026-09-22|Se exige leer la Constitución antes del issue, rechazar contradicciones y citar en la bitácora el principio aplicado a cada decisión tomada durante el trabajo.|CosteAR-admin#102|
-|2026-09-13|El briefing incorpora el modo de trabajo y los mensajes `/agente`; se explicita que el mensaje del issue elegido se lee antes de tocar código.|CosteAR-admin#98|
+|2026-09-22|Se exige leer la Constitución antes del issue, rechazar contradicciones y citar en la bitácora el principio aplicado a cada decisión tomada durante el trabajo.|costear-admin#102|
+|2026-09-13|El briefing incorpora el modo de trabajo y los mensajes `/agente`; se explicita que el mensaje del issue elegido se lee antes de tocar código.|costear-admin#98|
 |2026-09-04|**Se agrega "Antes de decir que algo ya está resuelto".** Un triage recomendó cerrar un issue afirmando que el commit ya estaba en `dev`; estaba sólo en una rama sin PR, y cerrarlo habría perdido 125 líneas y un ADR. Se agregan los tres comandos que lo comprueban y qué hacer al encontrar una rama huérfana. **Y se inaugura esta tabla**, que no existía: sin ella ningún cambio a este archivo se podía auto-etiquetar.|Santiago|

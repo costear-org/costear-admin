@@ -73,7 +73,7 @@ gh() {{
   printf 'gh simulado recibio una llamada inesperada: %s\\n' "$*" >&2
   return 97
 }}
-REPO=Coste-AR/CosteAR-admin
+REPO=costear-org/costear-admin
 CIRCUITO_TOKEN={shlex.quote(token)}
 for fila in {' '.join(shlex.quote('|'.join(map(str, fila))) for fila in filas)}; do
   IFS='|' read -r n base atras <<<"$fila"

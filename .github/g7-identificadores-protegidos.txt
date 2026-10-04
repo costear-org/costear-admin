@@ -1,6 +1,6 @@
 # LISTA PRIVADA DE IDENTIFICADORES PROTEGIDOS POR G7
 #
-# Un termino por linea. Este archivo vive solo en CosteAR-admin porque el repo es
+# Un termino por linea. Este archivo vive solo en costear-admin porque el repo es
 # privado. No copiarlo, resumirlo, hashearlo ni derivarlo hacia backend, frontend,
 # logs, comentarios de PR o artefactos de Actions.
 #
