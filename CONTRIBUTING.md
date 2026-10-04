@@ -29,8 +29,8 @@ skills** del equipo (`.claude/skills/`).
 **Prerequisitos:** Node 22 · npm.
 
 ```bash
-git clone https://github.com/Coste-AR/CosteAR-admin.git
-cd CosteAR-admin
+git clone https://github.com/costear-org/costear-admin.git
+cd costear-admin
 
 npm install              # instala dependencias y los git hooks (husky)
 cp .env.example .env     # completar
@@ -108,7 +108,7 @@ La **copia canónica** de las skills del equipo vive en `.claude/skills/` de est
 npm run skills:sync
 ```
 
-Eso las copia a `CosteAR-backend` y `CosteAR-frontend`. Después hay que **commitear en cada
+Eso las copia a `costear-backend` y `costear-web`. Después hay que **commitear en cada
 repo**: las skills se distribuyen por git, así le aparecen a todo el equipo con un `git pull`
 sin instalar nada.
 

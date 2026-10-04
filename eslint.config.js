@@ -7,7 +7,7 @@ import reactRefresh from 'eslint-plugin-react-refresh';
 import globals from 'globals';
 
 /**
- * Configuración de ESLint 9 (formato "flat"), igual a la de CosteAR-frontend.
+ * Configuración de ESLint 9 (formato "flat"), igual a la de costear-web.
  *
  * Por qué existe: el `package.json` tenía el script `"lint"` reemplazado por
  * un `echo` porque ESLint NO estaba entre las dependencias — el script real

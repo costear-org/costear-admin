@@ -50,7 +50,7 @@ jobs:
           fi
 
           case "${REPO_SOLICITADO:-}" in
-            Coste-AR/CosteAR-backend|Coste-AR/CosteAR-frontend) ;;
+            costear-org/costear-backend|costear-org/costear-web) ;;
             *)
               echo "::error::Repositorio no permitido o ausente. G7 no ejecuta solicitudes fuera de los dos repos publicos."
               exit 1 ;;

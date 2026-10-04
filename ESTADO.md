@@ -20,7 +20,7 @@
 
 - ⚠️ **El flujo cambió**: el PR nace en draft. **Acá no hay auto-merge** —el repo es privado y el
   plan Free no lo incluye—, así que el merge se hace a mano con el CI en verde.
-  Manual: https://github.com/Coste-AR/CosteAR-backend/blob/dev/docs/manual-de-flujo-de-trabajo.md
+  Manual: https://github.com/costear-org/costear-backend/blob/dev/docs/manual-de-flujo-de-trabajo.md
 - 🔴 **Issue #18 abierto**: quedaron datos comerciales de un cliente en los repos **públicos**
   (backend y frontend). El historial de git es permanente: lo barato es no volver a escribirlos.
 - 📌 **Este repo es privado y es donde va lo que no puede ser público**: el caso real de un cliente,

@@ -7,12 +7,12 @@ bóveda, los sectores industriales y las alertas del sistema. Más la administra
 de términos y condiciones.
 
 > **Si buscabas la app del cliente, no es acá:** es
-> [`CosteAR-frontend`](https://github.com/Coste-AR/CosteAR-frontend).
+> [`costear-web`](https://github.com/costear-org/costear-web).
 >
 > Este repo nació el 23-07-2026 como una copia podada de ese, y hasta hoy el título
 > de este README todavía decía "CosteAR — Frontend". Por eso, dentro del equipo,
 > nadie tenía claro qué era. La historia completa está en
-> [`CosteAR-os`](https://github.com/Coste-AR/CosteAR-os#qué-es-costear-admin-ya-que-nadie-se-acordaba).
+> [`costear-os`](https://github.com/costear-org/costear-os#qué-es-costear-admin-ya-que-nadie-se-acordaba).
 
 SPA para profesionales de costos. Interfaz de precisión, minimalista, con el
 granate como firma de marca (según la guía "Identidad Visual v1.0").

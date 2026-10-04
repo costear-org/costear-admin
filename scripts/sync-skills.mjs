@@ -58,13 +58,13 @@ function resolveRepo({ nombre, envVar, configKey, candidatos }) {
 
 const DESTINOS = [
   {
-    nombre: 'CosteAR-backend',
+    nombre: 'costear-backend',
     envVar: 'COSTEAR_BACKEND_PATH',
     configKey: 'costear.backendPath',
     candidatos: ['../../costear-api/CosteAR-backend', '../CosteAR-backend', '../../CosteAR-backend'],
   },
   {
-    nombre: 'CosteAR-frontend',
+    nombre: 'costear-web',
     envVar: 'COSTEAR_FRONTEND_PATH',
     configKey: 'costear.frontendPath',
     candidatos: [
@@ -76,7 +76,7 @@ const DESTINOS = [
 ];
 
 if (!existsSync(SKILLS_DIR)) {
-  console.error(`✗ No existe ${SKILLS_DIR}. ¿Estás corriendo esto desde CosteAR-admin?`);
+  console.error(`✗ No existe ${SKILLS_DIR}. ¿Estás corriendo esto desde costear-admin?`);
   process.exit(1);
 }
 
