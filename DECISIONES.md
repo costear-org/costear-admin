@@ -2,7 +2,7 @@
 
 > 📌 **De dónde salió este archivo, porque confunde** *(nota del 31-08-2026)*
 >
-> Es **idéntico** al `DECISIONES.md` de `CosteAR-frontend`, y no por error: este repo **nació como
+> Es **idéntico** al `DECISIONES.md` de `costear-web`, y no por error: este repo **nació como
 > una copia podada de aquél** el 23-07-2026, cuando se separaron las pantallas de administración
 > de la app del cliente. El archivo vino en la copia.
 >
@@ -18,7 +18,7 @@
 > administración**, esto no es la fuente. Mirá `docs/adr/` y la bitácora.
 >
 > La historia completa de la separación está en
-> [`CosteAR-os`](https://github.com/Coste-AR/CosteAR-os#qué-es-costear-admin-ya-que-nadie-se-acordaba).
+> [`costear-os`](https://github.com/costear-org/costear-os#qué-es-costear-admin-ya-que-nadie-se-acordaba).
 
 > ⚠️ **Registro histórico — cerrado.**
 >

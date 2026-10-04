@@ -249,7 +249,7 @@ agregar();
 agregar(
   'Recordá: el PR nace en draft (`gh pr create --draft`) y se mergea con squash; ' +
     'las promociones van con merge commit. Manual completo: ' +
-    'https://github.com/Coste-AR/CosteAR-backend/blob/dev/docs/manual-de-flujo-de-trabajo.md',
+    'https://github.com/costear-org/costear-backend/blob/dev/docs/manual-de-flujo-de-trabajo.md',
 );
 // El reparto de tareas con git. Va en el briefing y no solo en el CLAUDE.md
 // porque es lo primero que se rompe: el briefing avisa que la copia quedó

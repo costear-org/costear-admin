@@ -37,7 +37,7 @@ Son **seis**. Cinco las usan los devs; **`/costear-issue` la usa todo el equipo.
    vive la bitácora:
 
    ```bash
-   git config costear.adminPath "<ruta absoluta a CosteAR-admin>"
+   git config costear.adminPath "<ruta absoluta a costear-admin>"
    ```
 
 ---
@@ -209,7 +209,7 @@ y devuelve tres listas:
 **En qué momento:** al cerrar la sesión de trabajo, después de mergear.
 
 **Qué hace:** lee los commits y los PRs **reales** (no escribe de memoria), redacta la entrada en
-castellano llano y la guarda en `CosteAR-admin/bitacora/`, actualizando el índice.
+castellano llano y la guarda en `costear-admin/bitacora/`, actualizando el índice.
 
 **Lo que tenés que saber:**
 
